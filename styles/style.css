@@ -7,3 +7,66 @@ html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, ol, ul, li
     border: 0;
 }
 
+/* HTML Styles for REM Font-Sizing*/
+html {
+font-size: 16px;
+}
+
+
+/* Body Styles */
+body {
+    background-color: #282c34;
+    color: #f8f8f8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* Navigation Styles */
+a {
+    text-decoration: none;
+    color: #f8f8f8;
+   
+}
+
+.hover-effect {
+    box-shadow: inset 0 0 0 0 #3bb99b;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .2s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.hover-effect:hover {
+    box-shadow: inset 100px 0 0 0 #3bb99b;
+    color: #f8f8f8;
+}
+
+.container_navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: .875rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+
+.nav-item:first-child{
+    display: flex;
+    gap: 1.5rem;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+#apps_icon {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-top: .5rem;
+}
+
+#profile_icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: .5rem;
+    border-radius: 50%;
+}
