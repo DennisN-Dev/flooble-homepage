@@ -12,13 +12,21 @@ html {
 font-size: 16px;
 }
 
+/* Universal Color Classes */
+.green-color {
+    color: #3bb99b;
+}
+
 
 /* Body Styles */
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #282c34;
     color: #f8f8f8;
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
+    min-height: 100vh;
 }
 
 
@@ -69,4 +77,40 @@ a {
     height: 2.5rem;
     margin-top: .5rem;
     border-radius: 50%;
+}
+
+/* Header Styles */
+.container_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    letter-spacing: 1rem;
+    margin: auto 0;
+}
+
+/* Searchbar Styles */
+.search {
+    border-radius: 10%;
+}
+
+/* Search Buttons Styles
+.container_buttons {
+    display: flex;
+    justify-content: center;
+} */
+
+/* Footer Styles */
+
+.container_footer {
+    display: flex;
+    height: 3.125rem;
+    background-color: #707793;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: .875rem;
+    padding-right: 1rem;
+    margin-top: auto;
 }
