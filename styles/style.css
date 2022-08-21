@@ -113,6 +113,13 @@ form {
     transition: all .3s ease;
 }
 
+input[type="text"]
+{
+    font-size: 1rem;
+    outline: none;
+    padding-left: 1rem;
+}
+
 
 
   /* Searchbar Styles */
