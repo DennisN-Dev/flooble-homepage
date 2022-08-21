@@ -101,13 +101,18 @@ form {
     background-color: #f8f8f8;
   }
 
-  button {
+button {
     border: none;
     padding: 3px;
     margin: 0px;
   }
 
-  button:hover {
+button:hover {
+    background-color: #555;
+    transition: all .3s ease;
+}
+
+  .search-buttons:hover {
     background-color: #3bb99b;
     color: #f8f8f8;
     transition: all .3s ease;
