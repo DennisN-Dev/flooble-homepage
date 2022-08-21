@@ -133,12 +133,22 @@ form {
     width: 2rem;
 }
 
-
-/* Search Buttons Styles
+/* Search Button Styles */
 .container_buttons {
     display: flex;
-    justify-content: center;
-} */
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-buttons {
+    width: 12.5rem;
+    height: 3.125rem;
+    border-radius: 5%;
+}
 
 /* Footer Styles */
 
