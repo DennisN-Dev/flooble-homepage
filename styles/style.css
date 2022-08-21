@@ -45,7 +45,7 @@ a {
 }
 
 .hover-effect:hover {
-    box-shadow: inset 100px 0 0 0 #3bb99b;
+    box-shadow: inset 200px 0 0 0 #3bb99b;
     color: #f8f8f8;
 }
 
@@ -86,8 +86,9 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 4.5rem;
-    letter-spacing: 1rem;
-    margin: auto 0;
+    letter-spacing: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #flooble {
@@ -151,7 +152,7 @@ input[type="text"]
 
 .search-bar {
     position: relative;
-    margin-right: 1rem;
+
 }
 
 .search-bar-icons {
@@ -193,6 +194,109 @@ input[type="text"]
 
 /* Breakpoint Styles */
 
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 600px;
+        min-height: 100vh;
+    }
+
+    /* Small devices - Navbar Styles */
+    
+    .container_navbar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 600px;
+        font-size: 2rem;
+    }
+
+    .nav-item:first-child{
+        display: flex;
+        gap: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    #apps_icon {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-top: .5rem;
+    }
+    
+    #profile_icon {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-top: .5rem;
+        border-radius: 50%;
+    }
+
+    .container_header {
+        max-width: 600px;
+        min-height: 100vh;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* Small devices - Searchbar Styles */
+    
+    .container_search {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+   
+    }
+
+    .search {
+        height: 3.5rem;
+        width: 22rem;
+    }
+    
+    
+    .search-bar-icons {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    /* Small devices - Bottom Search Button Styles */
+
+    .container_buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-buttons {
+        width: 17rem;
+        height: 5rem;
+        border-radius: 10%;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+
+    /* Small devices - Footer Styles */
+
+    .container_footer {
+        height: 10rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+
+  }
+
 /* Medium devices (Portrait Tablets) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -208,7 +312,7 @@ input[type="text"]
     }
 
     #flooble {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     .search{
@@ -227,3 +331,4 @@ input[type="text"]
     }
 
   } 
+
