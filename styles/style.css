@@ -107,6 +107,14 @@ form {
     margin: 0px;
   }
 
+  button:hover {
+    background-color: #3bb99b;
+    color: #f8f8f8;
+    transition: all .3s ease;
+}
+
+
+
   /* Searchbar Styles */
 
 .container_search {
@@ -149,6 +157,7 @@ form {
     height: 3.125rem;
     border-radius: 5%;
 }
+
 
 /* Footer Styles */
 
