@@ -192,6 +192,13 @@ input[type="text"]
     margin-top: auto;
 }
 
+.nav-item-footer:first-child{
+    display: flex;
+    gap: 1.5rem;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
 /* Breakpoint Styles */
 
   /* Extra small devices (phones, 600px and down) */
@@ -241,6 +248,55 @@ input[type="text"]
         margin-top: auto;
         margin-bottom: auto;
     }
+
+    /* Small Devices - Hamburger Navbar */
+    .container_navbar {
+        overflow: hidden;
+        background-color: #3bb99b;
+        margin-right: 0;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .con
+
+    .nav-item a{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .container_navbar a.icon {
+        background: #3bb99b;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-right: 1rem;
+        padding-top: .3rem;
+      }
+
+    .fa-bars {
+        color:#282c34;
+    }
+
+      .container_navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .active {
+        display: block;
+        width: 60px;
+        background-color: #04AA6D;
+        color: blue;
+      }
 
     /* Small devices - Searchbar Styles */
     
@@ -292,6 +348,14 @@ input[type="text"]
         justify-content: center;
         flex-wrap: wrap;
         font-size: 2rem;
+    }
+
+    .nav-item-footer:first-child{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 
